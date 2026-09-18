@@ -29,7 +29,7 @@ A collection of HTML, CSS, and JavaScript practice files and mini projects, buil
 ## How to Run
 
 1. Clone the repository:
-   `git clone https://github.com/devsinghrajpootd007-blip/sigma-web-dev-course.git`
+   `git clone https://github.com/devprakashsingh26/sigma-web-dev-course.git`
 2. Open the folder you want to view.
 3. Open `index.html` in your browser (or use the Live Server extension in VS Code).
 
