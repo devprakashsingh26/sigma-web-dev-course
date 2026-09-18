@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        div {
+            background-color: lightblue;
+
+        }
+
+        /* Class Selector */
+        .my-class {
+            background-color: lightcoral;
+
+        }
+
+        /* ID Selector */
+
+        #my-id {
+            background-color: lightgreen;
+
+        }
+
+        /* Child Selector */
+        div>p {
+            background-color: lightyellow;
+
+        }
+
+        /* Descendant Selector */
+        div p {
+            background-color: lightgray;
+
+        }
+
+        /* Universal Selector */
+        * {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        /* Pseudo-selectors */
+        a:visited {
+            color: purple;
+        }
+
+        a:link {
+            color: yellow;
+        }
+
+        a:active {
+            color: red;
+        }
+
+        a:hover {
+            color: green;
+        }
+
+        p:first-child {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="one">
+        <p> I am First </p>
+        <p> I am Second </p>
+    </main>
+    <div> I am a div
+        <article>
+            <p> I am a paragraph inside an article </p>
+            <p> I am a paragraph inside a div </p>
+        </article>
+    </div>
+    <div class="my-class"> I am a div with class "my-class" </div>
+    <div id="my-id"> I am a div with id "my-id" </div>
+    <a href="https://www.google.com"> Open Google </a>
+    <a href="https://www.facebook.com"> Open Facebook </a>
+
+</body>
+
+</html>

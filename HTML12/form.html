@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+
+<body>
+    <h1> form to apply for Job</h1>
+
+    <form action="post">
+        <div>
+            <label for="username">Enter your username:
+            </label>
+
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+        </div>
+
+        <div> <label for="gender">Select your gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+
+        <div>
+            <label for="age"> I am over 18</label>
+            <input type="checkbox" id="age" name="age" value="over18">
+
+
+
+            <div> <label for="Favourite Language">Select your favourite programming language:</label>
+                <select name="favouriteLanguage" id="Favourite Language">
+                    <option value="python">Python</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="java">Java</option>
+                    <option value="c++">C++</option>
+                </select>
+            </div>
+
+
+            <div>
+                <label for="bio">Tell us about yourself:</label>
+                <textarea id="bio" name="bio" rows="4" cols="50"
+                    placeholder="Write something about yourself..."></textarea>
+            </div>
+            <div> 
+                    <label for="resume">Upload your resume:</label>
+                    <input type="file" id="resume" name="resume">
+        </div>
+       
+
+
+            <div>
+                <pre>
+
+                                                      <button type="submit">Submit</button>
+                </pre>
+            </div>
+
+            <div> <label for="terms">I agree to the terms and conditions:</label>
+                <input type="checkbox" id="terms" name="terms" value="agreed">
+            </div>
+    </form>
+    
+   <h1> Upload some of your previous work that you are proud of and would like to share. also, please provide a brief description of each project in audio and video format.</h1>
+     
+   <video width="320" height="240" controls>
+        <source src="WhatsApp Video 7 2026-07-23 at 8.01.15 PM.mp4" type="video/mp4">
+    </video>
+
+</body>
+
+</html>
