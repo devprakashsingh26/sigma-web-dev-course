@@ -36,5 +36,5 @@ A collection of HTML, CSS, and JavaScript practice files and mini projects, buil
 ## Author
 
 **Dev Prakash Singh**
-- GitHub: [devsinghrajpootd007-blip](https://github.com/devsinghrajpootd007-blip)
+- GitHub: [devprakashsingh26](https://github.com/devprakashsingh26)
 - LinkedIn: [Dev Prakash Singh](https://www.linkedin.com/in/dev-prakash-singh-63293a337)
